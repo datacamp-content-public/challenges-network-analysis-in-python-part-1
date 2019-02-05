@@ -117,3 +117,21 @@ l1:
 n:
   - '!expr g.rand_int(hi=5)'
 ```
+
+---
+
+## Network Structure
+
+```yaml
+type: MultipleChoiceChallenge
+key: 00d859c1ef
+```
+
+`@assignment1`
+Given graph G, which of the following code will correctly set the weight of the edge of nodes 1 and 2 to 5.
+
+`@options1`
+- 'G.node_edge(1, 2, {'weight': 5})'
+- 'G.edge(1, 2, 'weight'=5)'
+- ['G.edge[1][2]['weight'] = 5']
+- 'G.node_edge[1, 2, 'weight'] = 5
